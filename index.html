@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Liam McLean: Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/about.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="contianer nav">
+            <div class="brand">Liam McLean: Professional Site</div>
+            <nav aria-label="Primary">
+                <ul>
+                    <li><a href="#" aria-current="page">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="writing.html">Writing</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a class="btn" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <section class="hero">
+            <div class="hook">Creativity & Structure</div>
+            <h1>A place where creativity and project management meet. Become part of the journey.</h1>
+           
+        </section>
+    </main>
+    <section class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="grid cols-3">
+            <article class="card">
+                <img class="media" src="assets/media/project-manager-cover-photo.jpg" />
+                <div class="card-body">
+                    <h3>Project Manger</h3>
+                    <p>Translating vision into milestones and ship dates.</p>
+                </div>
+            </article>
+            <article class="card">
+                <img class="media" src="assets/media/webvideo-cover-main.jpg" />
+                <div class="card-body">
+                    <h3>Video Game & Web Development</h3>
+                    <p>Unity / Unreal / Js. Protoyping and Polish.</p>
+                </div>
+            </article>
+            <article class="card">
+                <img class="media" src="assets/media/writing-cover-main.jpg" />
+                <div class="card-body">
+                    <h3>Creative & Technical Writing</h3>
+                    <p>Teachnical Documents. Creative narrative design.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="section">
+        <h2 class="section-title">Services</h2>
+        <div class="grid cols-2 writing-split">
+            <div class="stack-lg">
+                <article class="service">
+                    <h3>Project Documentation and Structure</h3>
+                    <p class="muted">Technical documentation, project structure management and guidence. Designed to bring order ot the chaos.</p>
+                    <a class="btn" href="resources.html">Browse Templates</a>
+                </article>
+                <article class="service">
+                    <h3>Game Design & Development</h3>
+                    <p class="muted">Collaboration and support for games developed in Unity and Unreal. Languages: C#, C++.</p>
+                    <a class="btn" href="projects.html">See Projects</a>
+                </article>
+                <article class="service">
+                    <h3>Web Development</h3>
+                    <p class="muted">Front End Development. HTML, CSS, Java. Project Support.</p>
+                    <a class="btn" href="resources.html">See Resources</a>
+                </article>
+            </div>
+            <figure class="card">
+                <img class="media" src="assets/media/services-photo.jpg" />
+            </figure>
+        </div>
+    </section>
+    <section class="about-copy">
+        <h2>Contact me</h2>
+        <form class="contact-grid" action="https://formspree.io/f/xjkozzvv" method="post">
+            <div class="field">
+                <label for="first">First name</label>
+                <input id="first" name="first" class="input" placeholder="Nathan" />
+            </div>
+            <div class="field">
+                <label for="last">Last name</label>
+                <input id="last" name ="last" class="input" placeholder="Drake" />
+            </div>
+
+            <div class="field field--full">
+                <label for="email">Email address</label>
+                <input id="email" name="email" type="email" class="input" placeholder="email@yourdomain.com" />
+            </div>
+
+            <div class="field field--full">
+                <label for="msg">Your message</label>
+                <textarea id="msg" name="message" class="textarea" placeholder="Be apart of the journey! Let's chat.."></textarea>
+            </div>
+
+            <button class="btn contact-submit" type="submit">Submit</button>
+        </form>
+    </section>
+    <!-- footer -->
+    <footer class="site-footer">
+        <div class="foot-line"></div>
+
+        <div class="footer-grid">
+            
+            <div class="foot-left">
+                <div class="foot-brand">Liam McLean</div>
+                <div class="foot-social">
+                    <a href="#" aria-label="Facebook"></a>
+                    <a href="#" aria-label="Twitter"></a>
+                    <a href="#" aria-label="YouTube"></a>
+                </div>
+            </div>
+
+            <nav class="foot-right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="writing.html">Writing</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
